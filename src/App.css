@@ -1,0 +1,5 @@
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping to new lines */
+}
