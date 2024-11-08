@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export default function SingleTaskContent() {
   return (
@@ -78,8 +78,8 @@ export default function SingleTaskContent() {
                 </div>
               </div>
 
-              <div className=" ">
-                <div className="space-x-1 w-6">
+              <div className="avatar placeholder ">
+                <div className="bg-gray-100 space-x-1 w-6">
                   <span className="text-[10px]">+99</span>
                 </div>
               </div>
