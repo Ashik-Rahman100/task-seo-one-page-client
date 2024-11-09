@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import FileUpload from "./FileUpload";
 
 
-export default function SingleTaskContent() {
+export default function SingleTaskContent({Tdata}) {
     const [data, setData] = useState();
     
     // console.log(data)
@@ -23,7 +23,7 @@ export default function SingleTaskContent() {
                   <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
                 </div>
               </div>
-              <p className="text-[10px] font-semibold">Client Name</p>
+              <p className="text-[10px] font-semibold">{Tdata.clientName}</p>
             </div>
             <div className="flex items-center space-x-2">
               <div className="avatar">
