@@ -1,8 +1,21 @@
-# React + Vite
+# Live Link: https://stately-dieffenbachia-550080.netlify.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Upload attachment in mongodb from client side
+- Get attachment and display data from server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Backend API ENDPOINT:
+
+- (https://one-page-seo-server.vercel.app/upload)
+- (https://one-page-seo-server.vercel.app/getImages)
+
+## uses technologies and packages
+
+- Javascript
+- React.js
+- Tailwind Css
+- Daisy UI
+- Axios
+- React-Custom-Scroll
+- Vite

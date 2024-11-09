@@ -7,9 +7,8 @@ function FileUpload() {
   // Function to handle file selection
   const handleFileChange = (event) => {
     const file = event.target.files[0]
-    console.log(file)
     setFiles(file); // Store the selected files
-    // console.log(files)
+    console.log(files)
   };
 
   // Function to handle form submission

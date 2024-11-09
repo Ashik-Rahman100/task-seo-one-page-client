@@ -1,7 +1,16 @@
+import { useEffect, useState } from "react";
 import FileUpload from "./FileUpload";
 
 
 export default function SingleTaskContent() {
+    const [data, setData] = useState();
+    
+    // console.log(data)
+    useEffect(() => {
+        fetch("http://localhost:3000/getImages")
+        .then(res => res.json())
+        .then(data => setData(data))
+    },[])
   return (
     <div className="p-1 my-2 w-80 ">
       {/* reuseable card */}
@@ -141,7 +150,7 @@ export default function SingleTaskContent() {
                   />
                 </svg>
               </button>
-              <span>25</span>
+              <span className="text-blue-700 font-bold">{data?.length}</span>
             </p>
             <p className=" flex items-center">
               <svg
