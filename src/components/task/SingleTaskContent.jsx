@@ -7,7 +7,7 @@ export default function SingleTaskContent() {
     
     // console.log(data)
     useEffect(() => {
-        fetch("http://localhost:3000/getImages")
+        fetch("https://one-page-seo-server.vercel.app/getImages")
         .then(res => res.json())
         .then(data => setData(data))
     },[])
